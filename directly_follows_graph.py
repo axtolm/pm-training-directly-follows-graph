@@ -2,7 +2,7 @@
 """
 Created on April 16, 2023
 @author: Alexander Tolmachev axtolm@gmail.com
-A streamlit web app "Process Mining training" - Module "Directly-Follows Graph (DFG)"
+A streamlit web app "Process Mining training" - "Directly-Follows Graph (DFG)" module
 
 """
 # packages
@@ -568,7 +568,7 @@ def get_dict_text():
     # left block
     dict_text['left_block_author_refs','en'] = (''' 
            A streamlit web app "Process Mining training"      
-           Module "Directly-Follows Graph (DFG)"      
+           "Directly-Follows Graph (DFG)" module      
            v1.0.2 (2023)     
                 
            Developed by Alexander Tolmachev (axtolm@gmail.com)    
