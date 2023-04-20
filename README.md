@@ -8,7 +8,7 @@ Alternatively, you can download and deploy it on your computer as a Python appli
 ### Features
 This web app is designed solely for training purposes to help users understand the essential aspects of DFGs step-by-step using small event logs and learn how to create them using Python if desired. To this end:    
 1. There are no options for uploading event logs from any files - only manual input or selection from the pre-installed list.
-2. The Python code is easy to read - only one file, no classes, and executable code and text information are separated.
+2. Python code is easy to read - only one file, no classes, and all text information in one dictionary.
 3. All intermediate calculation results are displayed.
 4. Tables, matrices, and graphs are used to visualize DFGs.
 5. The filtering exercises provide visualization of DFGs before and after filtering to enable their comparison and analysis.
