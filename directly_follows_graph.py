@@ -171,7 +171,7 @@ def main():
         DFG_nodes, DFG_arcs = get_DFG (list(df_log['trace']), list(df_log['qty'])) # get DFG nodes & arcs (original)
         vDFG = get_vDFG(DFG_arcs, DFG_nodes, dfg_orientation,'I','O')   # construct DFG as graphviz object (original)
         # =========================================================================
-        max_activity_slider = DFG_nodes['qty'].sort_values().max()    # max frequency value for the slider
+        max_activity_slider = int(DFG_nodes['qty'].sort_values().max())    # max frequency value for the slider
         # =========================================================================
         # Slider for tau(act), full set of activities and filtered activities in 3 columns      
         col1,col2,col3 = st.columns([1,1,2])      
@@ -261,7 +261,7 @@ def main():
         DFG_nodes, DFG_arcs = get_DFG (list(df_log['trace']), list(df_log['qty'])) # get DFG nodes & arcs (original)
         vDFG = get_vDFG(DFG_arcs, DFG_nodes, dfg_orientation,'I','O')   # construct DFG as graphviz object (original)
         # =========================================================================
-        max_variant_slider = df_log['qty'].sort_values().max()    # max frequency value for the slider  
+        max_variant_slider = int(df_log['qty'].sort_values().max())    # max frequency value for the slider  
         # =========================================================================
         # Slider for tau(var), full log and filtered log in 3 columns      
         col1,col2,col3 = st.columns([1,1,2])      
@@ -331,7 +331,7 @@ def main():
         DFG_nodes, DFG_arcs = get_DFG (list(df_log['trace']), list(df_log['qty'])) # get DFG nodes & arcs (original)
         vDFG = get_vDFG(DFG_arcs, DFG_nodes, dfg_orientation,'I','O')   # construct DFG as graphviz object (original)
         # =========================================================================
-        max_arc_slider = DFG_arcs['qty'].sort_values().max()    # max frequency value for the slider
+        max_arc_slider = int(DFG_arcs['qty'].sort_values().max())    # max frequency value for the slider
         # =========================================================================
         # Slider for tau(arc), full arcs and filtered arcs in 3 columns      
         col1,col2,col3 = st.columns([1,1,2])      
