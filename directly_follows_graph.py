@@ -571,7 +571,8 @@ def get_dict_text():
            "Directly-Follows Graph (DFG)" module      
            v1.0.2 (2023)     
                 
-           Developed by Alexander Tolmachev (axtolm@gmail.com)    
+           Developed by Alexander Tolmachev     
+           axtolm@gmail.com | [GitHub](https://github.com/axtolm/pm-training-directly-follows-graph)    
            
            References   
            1. van der Aalst, W.M.P.: Foundations of Process Discovery. 
