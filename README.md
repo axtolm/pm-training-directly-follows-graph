@@ -2,7 +2,7 @@
 This web app is designed to help beginners in Process Mining understand the Directly-Follows Graphs topic using simple examples. It works with event logs that users can select from a list of pre-installed ones or create their own via easy manual input. We specifically use the event log format found in Process Mining textbooks [1]: $L =[< a, c, d>^{45},< b, c, e >^{42}]$. The app includes five exercises that cover various aspects of DFGs, such as the baseline discovery algorithm, constructing the DFG matrix and footprint, and applying different filtering techniques.    
 
 ### Usage   
-You can try the app on the Streamlit Cloud via the following [URL](http://185.105.88.103:8591/).    
+You can try the app on the Streamlit Cloud via the following [URL](http://185.105.88.103:8590/).    
 Alternatively, you can download and deploy it on your computer as a Python application based on the Streamlit framework (see `requirements.txt` and `packages.txt` for details).    
 
 ### Features
